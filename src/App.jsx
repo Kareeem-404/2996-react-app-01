@@ -1,15 +1,17 @@
-import Counter from "./components/Counter";
-import Register from "./components/Register";
+// import Counter from "./completed/components/Counter";
+// import Register from "./completed/components/Register";
+import Register2 from "./components/Register2";
 
 
 export default function App() {
 
 
   return (
-    <div className="min-h-screen flex justify-center gap-4">
+    <div className="min-h-screen flex justify-center items-center gap-4">
       {/* <Counter /> */}
 
-      <Register />
+      {/* <Register /> */}
+      <Register2 />
     </div>
   )
 }
