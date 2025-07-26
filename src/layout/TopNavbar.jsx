@@ -14,13 +14,13 @@ export default function TopNavbar() {
                     <div className="hidden md:flex items-center space-x-8 overflow-auto">
                         <Link to="/" className="text-gray-800 hover:text-blue-600 px-3 py-2 font-medium">Home</Link>
                         <Link to="/users" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Users</Link>
-                        <Link to="/users" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Products</Link>
-                        <Link to="/" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Quotes</Link>
-                        <Link to="/" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Todos</Link>
-                        <Link to="/" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Carts</Link>
-                        <Link to="/" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Posts</Link>
-                        <Link to="/" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Comments</Link>
-                        <Link to="/" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Recipes</Link>
+                        <Link to="/Products" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Products</Link>
+                        <Link to="/Quotes" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Quotes</Link>
+                        <Link to="/Todos" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Todos</Link>
+                        <Link to="/Carts" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Carts</Link>
+                        <Link to="/Posts" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Posts</Link>
+                        <Link to="/Comments" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Comments</Link>
+                        <Link to="/Recipes" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Recipes</Link>
                         <Link to="/services" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Services</Link>
                         <Link to="/about" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">About</Link>
                         <Link to="/contact" className="text-gray-500 hover:text-blue-600 px-3 py-2 font-medium">Contacts</Link>

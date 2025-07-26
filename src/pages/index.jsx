@@ -10,6 +10,11 @@ import User from "./User";
 import Services from "./Services";
 import Contact from "./Contact";
 import Home from "./Home";
+import Products from "./Products";
+import Quotes from "./Quotes"
+import Todos from "./Todos"
+import Carts from "./Carts"
+import Posts from "./Posts"
 
 // About pages
 import About from "./About";
@@ -32,6 +37,11 @@ export default function Pages() {
 
             <Route path='services' element={<Services />} />
             <Route path='contact' element={<Contact />} />
+            <Route path='products' element={<Products />} />
+            <Route path='quotes' element={<Quotes />} />
+            <Route path='todos' element={<Todos />} />
+            <Route path='carts' element={<Carts />} />
+            <Route path='posts' element={<Posts />} />
 
             <Route path='about' element={<About />}>
                 <Route path='mission' element={<Mission />} />
